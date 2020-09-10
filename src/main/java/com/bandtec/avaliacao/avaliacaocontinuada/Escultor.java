@@ -1,4 +1,4 @@
-package com.bandtec.avaliacao.avaliacaocontinuada.ParteCelia;
+package com.bandtec.avaliacao.avaliacaocontinuada;
 
 public class Escultor extends Artista {
 
@@ -14,6 +14,22 @@ public class Escultor extends Artista {
         this.valorHora = valorHora;
         this.valorMaterial = valorMaterial;
         this.especializacao = especializacao;
+    }
+
+    public Double getTempoTrabalho() {
+        return tempoTrabalho;
+    }
+
+    public Double getValorHora() {
+        return valorHora;
+    }
+
+    public Double getValorMaterial() {
+        return valorMaterial;
+    }
+
+    public String getEspecializacao() {
+        return especializacao;
     }
 
     @Override

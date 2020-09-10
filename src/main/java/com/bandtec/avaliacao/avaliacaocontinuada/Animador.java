@@ -1,4 +1,4 @@
-package com.bandtec.avaliacao.avaliacaocontinuada.ParteCelia;
+package com.bandtec.avaliacao.avaliacaocontinuada;
 
 public class Animador extends Artista {
 
@@ -11,6 +11,18 @@ public class Animador extends Artista {
         this.tempoTrabalho = tempoTrabalho;
         this.valorHora = valorHora;
         this.especializacao = especializacao;
+    }
+
+    public Double getTempoTrabalho() {
+        return tempoTrabalho;
+    }
+
+    public Double getValorHora() {
+        return valorHora;
+    }
+
+    public String getEspecializacao() {
+        return especializacao;
     }
 
     @Override

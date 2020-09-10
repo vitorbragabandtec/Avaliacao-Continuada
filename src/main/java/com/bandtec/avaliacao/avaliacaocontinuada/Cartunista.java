@@ -1,4 +1,4 @@
-package com.bandtec.avaliacao.avaliacaocontinuada.ParteCelia;
+package com.bandtec.avaliacao.avaliacaocontinuada;
 
 public class Cartunista extends Artista {
 
@@ -14,6 +14,17 @@ public class Cartunista extends Artista {
         this.especializacao = especializacao;
     }
 
+    public Double getTempoTrabalho() {
+        return tempoTrabalho;
+    }
+
+    public Integer getQtdPaginas() {
+        return qtdPaginas;
+    }
+
+    public String getEspecializacao() {
+        return especializacao;
+    }
 
     @Override
     public Double vendaArte() {

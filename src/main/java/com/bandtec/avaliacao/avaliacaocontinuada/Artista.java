@@ -1,4 +1,4 @@
-package com.bandtec.avaliacao.avaliacaocontinuada.ParteCelia;
+package com.bandtec.avaliacao.avaliacaocontinuada;
 
 public abstract class Artista {
 
@@ -13,5 +13,9 @@ public abstract class Artista {
     @Override
     public String toString() {
         return "\nnome='" + nome + '\'';
+    }
+
+    public String getNome() {
+        return nome;
     }
 }
